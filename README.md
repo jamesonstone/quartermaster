@@ -1,10 +1,16 @@
-# Botkit Starter Kit
+# QuarterMaster
 
-This is a Botkit starter kit for slack, created with the [Yeoman generator](https://github.com/howdyai/botkit/tree/master/packages/generator-botkit#readme).
+QuarterMaster: Chatbot for ChatOps
 
-To complete the configuration of this bot, make sure to update the included `.env` file with your platform tokens and credentials.
+## Getting Started
 
-[Botkit Docs](https://botkit.ai/docs/v4)
+Ensure a [slack app](https://api.slack.com/apps) has been created in the proper slack workspace
 
-This bot is powered by [a folder full of modules](https://botkit.ai/docs/v4/core.html#organize-your-bot-code). 
-Edit the samples, and add your own in the [features/](features/) folder.
+```bash
+export SLACK_SIGNING_SECRET=<your-signing-secret>
+export SLACK_BOT_TOKEN=xoxb-<your-bot-token>
+```
+
+## Resources
+
+- 

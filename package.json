@@ -1,17 +1,28 @@
 {
-  "name": "botkit-chatbot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
+  "name": "q",
+  "version": "0.0.1",
+  "description": "QuarterMaster: Chatbot for ChatOps",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstone28/q.git"
+  },
+  "keywords": [
+    "chatbot",
+    "slackbot",
+    "chatops"
+  ],
+  "author": "J.Stone",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jstone28/q/issues"
+  },
+  "homepage": "https://github.com/jstone28/q#readme",
   "dependencies": {
-    "botbuilder-adapter-slack": "^1.0.13",
-    "botbuilder-storage-mongodb": "^0.9.5",
-    "botkit": "^4.10.0",
-    "botkit-plugin-cms": "^1.0.3",
-    "dotenv": "^7.0.0"
+    "@slack/bolt": "^3.4.0"
   }
 }
