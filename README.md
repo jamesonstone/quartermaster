@@ -22,5 +22,6 @@ See the [oauth, permissions, and subscriptions](./docs/OAUTH_PERMISSIONS_SUBSCRI
 
 ## Resources
 
+- Scaffolding Code Copied from Slack's [Official Example](https://github.com/slackapi/bolt-js/tree/main/examples/getting-started-typescript)
 - Slack [apps](https://api.slack.com/apps)
 - Slack's bolt [framework](https://slack.dev/bolt-js/tutorial/getting-started)
