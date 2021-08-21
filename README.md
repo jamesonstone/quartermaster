@@ -4,23 +4,21 @@ QuarterMaster: Chatbot for ChatOps
 
 ## Getting Started
 
+Using Slack's "socket mode" which allows us to not use ngrok:
+
 ```bash
 export SLACK_SIGNING_SECRET=<your-signing-secret>
 export SLACK_BOT_TOKEN=xoxb-<your-bot-token>
+export SLACK_APP_TOKEN=xoxb-<your-bot-token>
+```
+
+```bash
+make start
 ```
 
 ### Configuring Permissions
 
 See the [oauth, permissions, and subscriptions](./docs/OAUTH_PERMISSIONS_SUBSCRIPTIONS.md)
-
-### To Start the Bot for Local Development
-
-```bash
-npm start
-ngrok http 3000
-
-Add ngrok url to "Redirect URLS" within Slack
-```
 
 ## Resources
 
