@@ -19,7 +19,7 @@ const app = new App({
 app.message(':wave:', async ({ message, say }) => {
     if (!isGenericMessageEvent(message)) return;
 
-    await say(`Hello, <@${message.user}>`);
+    await say(`👋  Hello, <@${message.user}>`);
 });
 
 /**
@@ -32,6 +32,7 @@ app.message('knock knock', async ({ say }) => {
 
 // Sends a section block with datepicker when someone reacts with a 📅 emoji
 app.event('reaction_added', async ({ event, client }) => {
+    console.log("\n\n YOU DID THE REACTION \n\n")
     // Could be a file that was reacted upon
     if (event.reaction === 'calendar' && isMessageItem(event.item)) {
         await client.chat.postMessage({
