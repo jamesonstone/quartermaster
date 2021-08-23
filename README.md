@@ -7,9 +7,8 @@ QuarterMaster: Chatbot for ChatOps
 Using Slack's "socket mode" which allows us to not use ngrok:
 
 ```bash
-export SLACK_SIGNING_SECRET=<your-signing-secret>
 export SLACK_BOT_TOKEN=xoxb-<your-bot-token>
-export SLACK_APP_TOKEN=xoxb-<your-bot-token>
+export SLACK_APP_TOKEN=xapp-<your-bot-token>
 ```
 
 ```bash
