@@ -4,8 +4,8 @@ start:
 build:
 	npm run build
 
-build-watch:
-	npm run build:watch
+dev:
+	npm run dev
 
 proxy:
 	@echo "not required for socketmode usage"

@@ -1,10 +1,14 @@
-# Setting up ChatOPs with Slack and Bolt
+# How to Setup ChatOps with Slack and @slack/Bolt.js
 
-ChatOps is a way of extending functionality
+ChatOps is a way of extending functionality and reporting into a plain language medium. ChatOps lowers the bar for interaction
 
+## Structure
 
+```bash
+src
+├── app.ts
+└── utils
+    ├── env.ts
+    └── helpers.ts
 
-## Source
-
-- Slack [apps](https://api.slack.com/apps)
-- Slack's bolt [framework](https://slack.dev/bolt-js/tutorial/getting-started)
+```
