@@ -2,6 +2,8 @@
 
 QuarterMaster: Chatbot for ChatOps
 
+*Scaffolding Code Copied from Slack's [Official Example](https://github.com/slackapi/bolt-js/tree/main/examples/getting-started-typescript)*
+
 ## Getting Started
 
 Using Slack's "socket mode" which allows us to not use ngrok:
@@ -21,6 +23,6 @@ See the [oauth, permissions, and subscriptions](./docs/OAUTH_PERMISSIONS_SUBSCRI
 
 ## Resources
 
-- Scaffolding Code Copied from Slack's [Official Example](https://github.com/slackapi/bolt-js/tree/main/examples/getting-started-typescript)
+- Slack's [Official Example](https://github.com/slackapi/bolt-js/tree/main/examples/getting-started-typescript)
 - Slack [apps](https://api.slack.com/apps)
 - Slack's bolt [framework](https://slack.dev/bolt-js/tutorial/getting-started)
