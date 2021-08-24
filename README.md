@@ -2,7 +2,8 @@
 
 QuarterMaster: Chatbot for ChatOps
 
-*Scaffolding Code Copied from Slack's [Official Example](https://github.com/slackapi/bolt-js/tree/main/examples/getting-started-typescript)*
+*Scaffolding Code Copied from Slack's
+[Official Example](https://github.com/slackapi/bolt-js/tree/main/examples/getting-started-typescript)*
 
 ## Getting Started
 
